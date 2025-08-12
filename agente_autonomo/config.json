@@ -1,0 +1,27 @@
+{
+  "name": "Agente Autônomo HA",
+  "version": "1.0.0",
+  "slug": "agente_autonomo",
+  "description": "Diagnóstico, correção e otimização automática via API do Home Assistant.",
+  "arch": [
+    "amd64",
+    "aarch64",
+    "armv7",
+    "armhf",
+    "i386"
+  ],
+  "startup": "application",
+  "boot": "auto",
+  "host_network": true,
+  "map": [
+    "config:rw"
+  ],
+  "options": {
+    "access_token": "",
+    "hass_url": "http://127.0.0.1:8123"
+  },
+  "schema": {
+    "access_token": "str",
+    "hass_url": "str?"
+  }
+}
