@@ -1,6 +1,6 @@
 {
   "name": "Agente Autônomo HA",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "agente_autonomo",
   "description": "Diagnóstico, correção e otimização automática via API do Home Assistant.",
   "arch": [
